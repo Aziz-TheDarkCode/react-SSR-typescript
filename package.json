@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build:server": "tsc --project ./tsconfig.server.json --outDir ./dist",
-    "start": "nodemon ./dist/server.js",
+    "start": "node ./dist/server.js",
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
